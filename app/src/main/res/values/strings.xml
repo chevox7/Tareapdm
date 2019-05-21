@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SistemaDeEncuestas</string>
+    <string name="button">Crear Encuesta</string>
+    <string name="button2">Lista De Encuestas</string>
+    <string name="button3">Responder Encuesta</string>
+    <string name="TextView">Seleccionar opcion </string>
+    <string name="button4">Regresar</string>
+    <string name="button5">Regresar</string>
+    <string name="button6">Regresar</string>
+</resources>
