@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void CrearEncuesta(View view){
-        Intent crear = new Intent(this, CreacionEncuestaActivity.class);
+        Intent crear = new Intent(this, CrearEncuestaActivity.class);
         startActivity(crear);
     }
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Lista(View view){
-        Intent list = new Intent(this, ListaEncuestasActivity.class);
+        Intent list = new Intent(this, ListaEncActivity.class);
         startActivity(list);
     }
 

@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RespEncActivity"></activity>
+        <activity android:name=".ListaEncActivity" />
+        <activity android:name=".CrearEncuestaActivity" />
+        <activity android:name=".DocenteActivity" />
+        <activity android:name=".MateriaActivity" />
+        <activity android:name=".PregActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,6 +5,16 @@
     <string name="button3">Responder Encuesta</string>
     <string name="TextView">Seleccionar opcion </string>
     <string name="button4">Regresar</string>
-    <string name="button5">Regresar</string>
-    <string name="button6">Regresar</string>
+    <string name="button5">listar pregunta</string>
+    <string name="button6">modificar pregunta</string>
+    <string name="button7">Gestion De Preguntas</string>
+    <string name="button8">Gstion De Materia</string>
+    <string name="button9">Gestion De Docente</string>
+    <string name="button10">Añadir pregunta</string>
+    <string name="button11">eliminar pregunta</string>
+    <string name="button12">Regresar</string>
+    <string name="button13">Regresar</string>
+    <string name="button15">Eliminar Encuesta</string>
+    <string name="button16">Modificar Encuesta</string>
+
 </resources>
