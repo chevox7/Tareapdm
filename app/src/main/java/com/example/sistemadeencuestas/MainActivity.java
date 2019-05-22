@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ResponderEncuesta(View view){
-        Intent responder = new Intent(this, EncuestaActivity.class);
+        Intent responder = new Intent(this, RespEncActivity.class);
         startActivity(responder);
     }
 
