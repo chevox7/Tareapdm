@@ -11,11 +11,12 @@ public class DatabaseAccess {
     private static DatabaseAccess instance;
     Cursor c = null;
 
-    private DatabaseAccess(Context context){
+   //private DatabaseAccess(Context context){
 
-        this.openHelper =new DataBaseOpenHelper(context);
-    }
+        //this.openHelper =new DataBaseOpenHelper(this, "BaseEncuesta.bd", context, 1);
+    //}
 //****************//retorno de la instancia a la base
+    /*
     public static DatabaseAccess getInstance(Context context){
         if(instance==null){
             instance=new DatabaseAccess(context);
@@ -25,6 +26,7 @@ public class DatabaseAccess {
 
     //abrir la base
     public void open(){
+
         this.db=openHelper.getWritableDatabase();
     }
 //cerrar base
@@ -43,7 +45,7 @@ public class DatabaseAccess {
         }
         return buffer.toString();
     }
-
+*/
         }
 
 

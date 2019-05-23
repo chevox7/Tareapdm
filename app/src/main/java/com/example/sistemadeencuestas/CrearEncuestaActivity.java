@@ -32,4 +32,6 @@ public class CrearEncuestaActivity extends AppCompatActivity {
         Intent reg = new Intent(this, MainActivity.class);
         startActivity(reg);
     }
+
+
 }
