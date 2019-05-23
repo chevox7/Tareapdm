@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IntentoActivity">
+
+    <Button
+        android:id="@+id/insertarIntento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Insertar"
+        android:text="@string/insertar" />
+
+    <Button
+        android:id="@+id/ConsultarIntento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Consultar"
+        android:text="@string/consultar" />
+
+    <Button
+        android:id="@+id/ActualizarIntento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Actualizar"
+        android:text="@string/actualizar" />
+
+    <Button
+        android:id="@+id/eliminarIntento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Eliminar"
+        android:text="@string/eliminar" />
+
+    <Button
+        android:id="@+id/regresarMenuIntento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Cancelar"
+        android:text="@string/cancelar" />
+
+</android.widget.LinearLayout>

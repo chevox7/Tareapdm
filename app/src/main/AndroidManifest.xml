@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RespEncActivity"></activity>
+        <activity android:name=".IntentoEliminarActivity"></activity>
+        <activity android:name=".IntentoConsultarActivity" />
+        <activity android:name=".IntentoActualizarActivity" />
+        <activity android:name=".IntentoInsertarActivity" />
+        <activity android:name=".IntentoActivity" />
+        <activity android:name=".RespEncActivity" />
         <activity android:name=".ListaEncActivity" />
         <activity android:name=".CrearEncuestaActivity" />
         <activity android:name=".DocenteActivity" />
