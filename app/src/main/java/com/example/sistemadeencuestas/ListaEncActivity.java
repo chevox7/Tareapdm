@@ -23,7 +23,7 @@ public class ListaEncActivity extends AppCompatActivity {
 }
 
     public void Registrar(View view){
-        DataBaseOpenHelper admin = new DataBaseOpenHelper(this, "BaseEncuesta.bd", null, 1);
+        DataBaseOpenHelper admin = new DataBaseOpenHelper(this,"BaseEncuesta.bd",null,1);
         SQLiteDatabase BaseDeDatos = admin.getWritableDatabase();
 
 
@@ -57,7 +57,7 @@ public class ListaEncActivity extends AppCompatActivity {
 
     //**********Buscar*//////////
     public void Buscar(View view){
-        DataBaseOpenHelper admin = new DataBaseOpenHelper(this, "BaseEncuesta.bd", null, 1);
+        DataBaseOpenHelper admin = new DataBaseOpenHelper(this,"BaseEncuesta.bd",null,1);
         SQLiteDatabase BaseDeDatabase = admin.getWritableDatabase();
 
 
@@ -82,7 +82,7 @@ public class ListaEncActivity extends AppCompatActivity {
 
     //***************Eliminar*********
     public void Eliminar(View view){
-        DataBaseOpenHelper admin = new DataBaseOpenHelper(this, "BaseEncuesta.bd", null, 1);
+        DataBaseOpenHelper admin = new DataBaseOpenHelper(this,"BaseEncuesta.bd",null,1);
         SQLiteDatabase BaseDatabase = admin.getWritableDatabase();
 
         String enc = idEncuesta.getText().toString();
@@ -112,7 +112,7 @@ public class ListaEncActivity extends AppCompatActivity {
 
 
     public void Modificar(View view){
-        DataBaseOpenHelper  admin = new DataBaseOpenHelper (this, "BaseEncuesta.bd", null, 1);
+        DataBaseOpenHelper  admin = new DataBaseOpenHelper (this,"BaseEncuesta.bd",null,1);
         SQLiteDatabase BaseDatabase = admin.getWritableDatabase();
 
         String enc = idEncuesta.getText().toString();
