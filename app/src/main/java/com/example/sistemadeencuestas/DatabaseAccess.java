@@ -12,6 +12,7 @@ public class DatabaseAccess {
     Cursor c = null;
 
     private DatabaseAccess(Context context){
+
         this.openHelper =new DataBaseOpenHelper(context);
     }
 //****************//retorno de la instancia a la base
