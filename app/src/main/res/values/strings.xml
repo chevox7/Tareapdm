@@ -17,9 +17,8 @@
     <string name="button13">Regresar</string>
     <string name="button15">Eliminar Encuesta</string>
     <string name="button16">Modificar Encuesta</string>
-<<<<<<< HEAD
     <string name="button17">buscar Encuesta</string>
-=======
+    >>>>>>>HEAD
     <string name="cancelar">Cancelar</string>
     <string name="insertar">Insertar</string>
     <string name="consultar">Consultar</string>
