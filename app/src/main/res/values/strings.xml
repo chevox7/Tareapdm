@@ -37,4 +37,8 @@
     <string name="tittle_activity_respuesta_consultar">Consultar Respuesta</string>
     <string name="tittle_activity_respuesta_actualizar">Actualizar Respuesta</string>
     <string name="tittle_activity_respuesta_eliminar">Eliminar Respuesta</string>
+    <string name="idAsignatura">ID Asignatura</string>
+    <string name="codAsignatura">Código</string>
+    <string name="nomAsignatura">Nombre de asignatura</string>
+    <string name="limpiar">Limpiar</string>
 </resources>
