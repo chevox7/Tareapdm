@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IntentoEliminarActivity"></activity>
+        <activity android:name=".RespuestaInsertarActivity"></activity>
+        <activity android:name=".RespuestaEliminarActivity" />
+        <activity android:name=".RespuestaConsultarActivity" />
+        <activity android:name=".RespuestaActualizarActivity" />
+        <activity android:name=".RespuestaActivity" />
+        <activity android:name=".MateriaInsertarActivity" />
+        <activity android:name=".MateriaEliminarActivity" />
+        <activity android:name=".MateriaConsultarActivity" />
+        <activity android:name=".MateriaActualizarActivity" />
+        <activity android:name=".IntentoEliminarActivity" />
         <activity android:name=".IntentoConsultarActivity" />
         <activity android:name=".IntentoActualizarActivity" />
         <activity android:name=".IntentoInsertarActivity" />

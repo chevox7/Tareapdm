@@ -18,7 +18,6 @@
     <string name="button15">Eliminar Encuesta</string>
     <string name="button16">Modificar Encuesta</string>
     <string name="button17">buscar Encuesta</string>
-    >>>>>>>HEAD
     <string name="cancelar">Cancelar</string>
     <string name="insertar">Insertar</string>
     <string name="consultar">Consultar</string>
@@ -28,7 +27,14 @@
     <string name="tittle_activity_intento_consultar">Consultar Intento</string>
     <string name="tittle_activity_intento_actualizar">Actualizar Intento</string>
     <string name="tittle_activity_intento_eliminar">Eliminar Intento</string>
-
-
->>>>>>> b5e28abeb5d7ddf60cbb441279edf8a826cd6ed6
+    <string name="tittle_activity_materia">Gestionar Materia</string>
+    <string name="tittle_activity_materia_insertar">Insertar Materia</string>
+    <string name="tittle_activity_materia_consultar">Consultar Materia</string>
+    <string name="tittle_activity_materia_actualizar">Actualizar Materia</string>
+    <string name="tittle_activity_materia_eliminar">Eliminar Materia</string>
+    <string name="tittle_activity_respuesta">Gestionar Respuesta</string>
+    <string name="tittle_activity_respuesta_insertar">Insertar Respuesta</string>
+    <string name="tittle_activity_respuesta_consultar">Consultar Respuesta</string>
+    <string name="tittle_activity_respuesta_actualizar">Actualizar Respuesta</string>
+    <string name="tittle_activity_respuesta_eliminar">Eliminar Respuesta</string>
 </resources>

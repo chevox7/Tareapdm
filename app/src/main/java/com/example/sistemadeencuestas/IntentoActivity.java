@@ -20,8 +20,8 @@ public class IntentoActivity extends AppCompatActivity {
     }
 
     public void Consultar(View view) {
-        Intent consultart = new Intent(this, IntentoConsultarActivity.class);
-        startActivity(consultart);
+        Intent consultar = new Intent(this, IntentoConsultarActivity.class);
+        startActivity(consultar);
     }
 
     public void Actualizar(View view) {
