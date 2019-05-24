@@ -8,7 +8,6 @@
     <string name="TextView7">idDocente </string>
     <string name="TextView8">nomDocente </string>
     <string name="TextView9"> </string>
-
     <string name="button4">Regresar</string>
     <string name="button5">listar pregunta</string>
     <string name="button6">modificar pregunta</string>
@@ -22,16 +21,11 @@
     <string name="button15">Eliminar Encuesta</string>
     <string name="button16">Modificar Encuesta</string>
     <string name="button17">buscar Encuesta</string>
-<<<<<<< HEAD
     <string name="button18">Ingresar</string>
     <string name="button19">Modificar</string>
     <string name="button20">Buscar</string>
     <string name="button21">Eliminar</string>
     <string name="button22">Cancelar</string>
-
-    >>>>>>>HEAD
-=======
->>>>>>> 2ee596d5b788b539645172ff24fed6113870952c
     <string name="cancelar">Cancelar</string>
     <string name="insertar">Insertar</string>
     <string name="consultar">Consultar</string>

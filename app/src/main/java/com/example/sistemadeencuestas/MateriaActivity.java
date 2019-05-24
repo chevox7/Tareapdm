@@ -1,6 +1,5 @@
 package com.example.sistemadeencuestas;
 
-<<<<<<< HEAD
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
@@ -12,12 +11,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 import java.lang.Integer;
-=======
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
->>>>>>> 2ee596d5b788b539645172ff24fed6113870952c
 
 public class MateriaActivity extends AppCompatActivity {
 
@@ -32,9 +29,6 @@ public class MateriaActivity extends AppCompatActivity {
 
     }
 
-<<<<<<< HEAD
-
-=======
     public void Insertar(View view) {
         Intent insertar = new Intent(this, MateriaInsertarActivity.class);
         startActivity(insertar);
@@ -59,7 +53,6 @@ public class MateriaActivity extends AppCompatActivity {
         Intent reg = new Intent(this, MainActivity.class);
         startActivity(reg);
     }
->>>>>>> 2ee596d5b788b539645172ff24fed6113870952c
 }
 
 
