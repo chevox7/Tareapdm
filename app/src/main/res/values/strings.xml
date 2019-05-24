@@ -49,4 +49,8 @@
     <string name="codAsignatura">Código</string>
     <string name="nomAsignatura">Nombre de asignatura</string>
     <string name="limpiar">Limpiar</string>
+    <string name="idIntento">ID Intento</string>
+    <string name="idAlumno">ID alumno</string>
+    <string name="idEncuestado">ID Encuestado</string>
+    <string name="idClave">ID Clave</string>
 </resources>

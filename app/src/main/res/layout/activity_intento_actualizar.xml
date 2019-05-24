@@ -6,4 +6,70 @@
     android:orientation="vertical"
     tools:context=".IntentoActualizarActivity">
 
+    <TextView
+        android:id="@+id/tIdIntentoAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idIntento" />
+
+    <EditText
+        android:id="@+id/editIdIntentoAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tIdAlumnoInAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idAlumno" />
+
+    <EditText
+        android:id="@+id/editIdAlumnoInAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tIdClaveInAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idClave" />
+
+    <EditText
+        android:id="@+id/editIdClaveInAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tIdEncuestadoInAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idEncuestado" />
+
+    <EditText
+        android:id="@+id/editIdEncuestadoInAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/IntentoActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Actualizar"
+        android:text="@string/actualizar" />
+
+    <Button
+        android:id="@+id/IntentoLimpiarAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Limpiar"
+        android:text="@string/limpiar" />
+
 </android.widget.LinearLayout>

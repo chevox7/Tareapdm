@@ -27,7 +27,7 @@ public class MateriaEliminarActivity extends AppCompatActivity {
 
         if(!id.isEmpty()){
 
-            int cantidad = BaseDatabase.delete("Asignatura", "idAsignatura=" + id + ";", null);
+            int cantidad = BaseDatabase.delete("Asignatura", "idAsignatura = " + id + ";", null);
             BaseDatabase.close();
             if(cantidad == 1){
                 Toast.makeText(this, " eliminado exitosamente", Toast.LENGTH_SHORT).show();
@@ -36,7 +36,7 @@ public class MateriaEliminarActivity extends AppCompatActivity {
             }
 
         } else {
-            Toast.makeText(this, "Debes de introducir el id del docente", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Debes de introducir el id de la asignatura", Toast.LENGTH_SHORT).show();
         }
     }
 

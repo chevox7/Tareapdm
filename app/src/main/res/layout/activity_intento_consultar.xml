@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".IntentoConsultarActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tIdIntentoCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idIntento" />
+
+    <EditText
+        android:id="@+id/editIdIntentoCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tIdAlumnoInCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idAlumno" />
+
+    <EditText
+        android:id="@+id/editIdAlumnoInCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tIdClaveInCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idClave" />
+
+    <EditText
+        android:id="@+id/editIdClaveInCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tIdEncuestadoInCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idEncuestado" />
+
+    <EditText
+        android:id="@+id/editIdEncuestadoInCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/IntentoConsultarCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Consultar"
+        android:text="@string/consultar" />
+
+    <Button
+        android:id="@+id/IntentoLimpiarCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Limpiar"
+        android:text="@string/limpiar" />
+
+</android.widget.LinearLayout>
