@@ -43,12 +43,12 @@ public class IntentoConsultarActivity extends AppCompatActivity {
                 editIdEncuestado.setText(fila.getString(3));
                 BaseDeDatabase.close();
             } else {
-                Toast.makeText(this,"Intento  ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Intento no existe", Toast.LENGTH_SHORT).show();
                 BaseDeDatabase.close();
             }
 
         } else {
-            Toast.makeText(this, "se debe introducrit una", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "se debe introducrit un ID", Toast.LENGTH_SHORT).show();
         }
     }
 

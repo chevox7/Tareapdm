@@ -7,4 +7,57 @@
     android:orientation="vertical"
     tools:context=".RespuestaInsertarActivity">
 
+    <TextView
+        android:id="@+id/tIdRespuestaIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idRespuesta" />
+
+    <EditText
+        android:id="@+id/editIdRespuestaIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tIdIntentoResIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idIntento" />
+
+    <EditText
+        android:id="@+id/editIdIntentoResIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tIdOpPregResIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idOpPregunta" />
+
+    <EditText
+        android:id="@+id/editIdOpPregResIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/RespuestaInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Insertar"
+        android:text="@string/insertar" />
+
+    <Button
+        android:id="@+id/RespuestaLimpiarIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Limpiar"
+        android:text="@string/limpiar" />
+
 </android.widget.LinearLayout>

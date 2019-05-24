@@ -45,7 +45,7 @@ public class MateriaConsultarActivity extends AppCompatActivity {
             }
 
         } else {
-            Toast.makeText(this, "se debe introducrit una", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "se debe introducrit un ID", Toast.LENGTH_SHORT).show();
         }
     }
 

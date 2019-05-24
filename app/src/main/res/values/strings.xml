@@ -53,4 +53,6 @@
     <string name="idAlumno">ID alumno</string>
     <string name="idEncuestado">ID Encuestado</string>
     <string name="idClave">ID Clave</string>
+    <string name="idRespuesta">ID Respuesta</string>
+    <string name="idOpPregunta">ID Opciones Pregunta</string>
 </resources>

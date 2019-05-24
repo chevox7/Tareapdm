@@ -7,4 +7,57 @@
     android:orientation="vertical"
     tools:context=".RespuestaActualizarActivity">
 
+    <TextView
+        android:id="@+id/tIdRespuestaAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idRespuesta" />
+
+    <EditText
+        android:id="@+id/editIdRespuestaAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tIdIntentoResAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idIntento" />
+
+    <EditText
+        android:id="@+id/editIdIntentoResAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tIdOpPregResAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idOpPregunta" />
+
+    <EditText
+        android:id="@+id/editIdOpPregResAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/RespuestaActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Actualizar"
+        android:text="@string/actualizar" />
+
+    <Button
+        android:id="@+id/RespuestaLimpiarAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Limpiar"
+        android:text="@string/limpiar" />
+
 </android.widget.LinearLayout>

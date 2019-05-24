@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text" />
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/tIdClaveInCon"
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"/>
+        android:inputType="number"/>
 
     <TextView
         android:id="@+id/tIdEncuestadoInCon"
@@ -57,10 +57,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"/>
+        android:inputType="number"/>
 
     <Button
-        android:id="@+id/IntentoConsultarCon"
+        android:id="@+id/IntentoConsultar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Consultar"

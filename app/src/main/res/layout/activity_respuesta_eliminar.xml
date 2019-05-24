@@ -7,4 +7,31 @@
     android:orientation="vertical"
     tools:context=".RespuestaEliminarActivity">
 
+    <TextView
+        android:id="@+id/tIdRespuestaElim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idRespuesta" />
+
+    <EditText
+        android:id="@+id/editIdRespuestaElim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/RespuestaEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Eliminar"
+        android:text="@string/eliminar" />
+
+    <Button
+        android:id="@+id/RespuestaLimpiarElim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Limpiar"
+        android:text="@string/limpiar" />
+
 </android.widget.LinearLayout>
