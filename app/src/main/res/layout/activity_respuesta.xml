@@ -5,47 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MateriaActivity">
+    tools:context=".RespuestaActivity">
 
-<<<<<<< HEAD
-
-
-</android.support.constraint.ConstraintLayout>
-=======
     <Button
-        android:id="@+id/insertarMateria"
+        android:id="@+id/insertarRespuesta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Insertar"
         android:text="@string/insertar" />
 
     <Button
-        android:id="@+id/ConsultarMateria"
+        android:id="@+id/ConsultarRespuesta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Consultar"
         android:text="@string/consultar" />
 
     <Button
-        android:id="@+id/ActualizarMateria"
+        android:id="@+id/ActualizarRespuesta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Actualizar"
         android:text="@string/actualizar" />
 
     <Button
-        android:id="@+id/eliminarMateria"
+        android:id="@+id/eliminarRespuesta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Eliminar"
         android:text="@string/eliminar" />
 
     <Button
-        android:id="@+id/regresarMenuMateria"
+        android:id="@+id/regresarMenuRespuesta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Cancelar"
         android:text="@string/cancelar" />
 
 </android.widget.LinearLayout>
->>>>>>> 2ee596d5b788b539645172ff24fed6113870952c
