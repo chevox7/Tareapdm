@@ -18,7 +18,14 @@ public class CrearEncuestaActivity extends AppCompatActivity {
         startActivity(crear);
     }
 
-
+    public void CrearIntento(View view){
+        Intent crear = new Intent(this,IntentoActivity.class);
+        startActivity(crear);
+    }
+    public void CrearRespuesta(View view){
+        Intent crear = new Intent(this,RespuestaActivity.class);
+        startActivity(crear);
+    }
     public void CrearMateria(View view){
         Intent crear = new Intent(this, MateriaActivity.class);
         startActivity(crear);

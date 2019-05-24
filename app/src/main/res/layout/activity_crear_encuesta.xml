@@ -31,12 +31,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="88dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="CrearPregunta"
         android:text="GESTION DE PREGUNTAS"
+        app:layout_constraintBottom_toTopOf="@+id/gestionIntentobt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="@string/button7" />
 
     <Button
@@ -51,8 +54,10 @@
         android:text="GESTION DE MATERIA"
         app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.772"
         tools:text="@string/button8" />
 
     <Button
@@ -69,5 +74,33 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="@string/button9" />
+
+    <Button
+        android:id="@+id/gestionIntentobt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/gestion_de_intentos"
+        app:layout_constraintBottom_toTopOf="@+id/GestionRespuestabt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        android:onClick="CrearIntento"/>
+
+    <Button
+        android:id="@+id/GestionRespuestabt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/gestion_de_respuestas"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gestionIntentobt"
+        android:onClick="CrearRespuesta"/>
 
 </android.support.constraint.ConstraintLayout>

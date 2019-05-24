@@ -46,12 +46,12 @@ public class RespuestaConsultarActivity extends AppCompatActivity {
                 editIdOpcionesPregunta.setText(fila.getString(2));
                 BaseDeDatabase.close();
             } else {
-                Toast.makeText(this,"Respuesta  ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Respuesta no existe ", Toast.LENGTH_SHORT).show();
                 BaseDeDatabase.close();
             }
 
         } else {
-            Toast.makeText(this, "se debe introducrit un ID", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "se debe introducrit ID de Respuesta", Toast.LENGTH_SHORT).show();
         }
     }
 }

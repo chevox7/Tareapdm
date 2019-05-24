@@ -48,7 +48,7 @@ public class IntentoConsultarActivity extends AppCompatActivity {
             }
 
         } else {
-            Toast.makeText(this, "se debe introducrit un ID", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "se debe introducrit ID de Intento", Toast.LENGTH_SHORT).show();
         }
     }
 

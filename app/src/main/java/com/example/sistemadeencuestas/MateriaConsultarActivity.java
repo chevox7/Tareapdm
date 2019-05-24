@@ -40,12 +40,12 @@ public class MateriaConsultarActivity extends AppCompatActivity {
                 editCodAsignatura.setText(fila.getString(2));
                 BaseDeDatabase.close();
             } else {
-                Toast.makeText(this,"Asignatura  ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Asignatura no existe ", Toast.LENGTH_SHORT).show();
                 BaseDeDatabase.close();
             }
 
         } else {
-            Toast.makeText(this, "se debe introducrit un ID", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "se debe introducrit ID de Asignatura", Toast.LENGTH_SHORT).show();
         }
     }
 

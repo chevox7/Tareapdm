@@ -55,4 +55,6 @@
     <string name="idClave">ID Clave</string>
     <string name="idRespuesta">ID Respuesta</string>
     <string name="idOpPregunta">ID Opciones Pregunta</string>
+    <string name="gestion_de_respuestas">GESTION DE RESPUESTAS</string>
+    <string name="gestion_de_intentos">GESTION DE INTENTOS</string>
 </resources>
