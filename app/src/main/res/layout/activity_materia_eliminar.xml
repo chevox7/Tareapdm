@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MateriaEliminarActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tIdAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idAsignatura" />
+
+    <EditText
+        android:id="@+id/editIdAsignaturaElim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/MateriaEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Eliminar"
+        android:text="@string/eliminar" />
+
+    <Button
+        android:id="@+id/MateriaLimpiarElim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Limpiar"
+        android:text="@string/limpiar" />
+
+</android.widget.LinearLayout>

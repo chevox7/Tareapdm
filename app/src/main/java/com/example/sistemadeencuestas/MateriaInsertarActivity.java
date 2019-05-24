@@ -10,7 +10,6 @@ import android.widget.Toast;
 
 public class MateriaInsertarActivity extends AppCompatActivity {
 
-    ControlBD helper;
     EditText editIdAsignatura;
     EditText editCodAsignatura;
     EditText editNomAsignatura;
@@ -20,25 +19,36 @@ public class MateriaInsertarActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setTitle(R.string.tittle_activity_materia_insertar);
         setContentView(R.layout.activity_materia_insertar);
-        helper = new ControlBD(this);
         editIdAsignatura = (EditText) findViewById(R.id.editIdAsignatura);
         editCodAsignatura = (EditText) findViewById(R.id.editCodAsignatura);
         editNomAsignatura = (EditText) findViewById(R.id.editNomAsignatura);
     }
 
     public void Insertar(View view) {
-        String IdAsignatura = editIdAsignatura.getText().toString();
-        String CodAsignatura = editCodAsignatura.getText().toString();
-        String NomAsignatura = editNomAsignatura.getText().toString();
-        Materia mat = new Materia();
-        String regInsertados;
-        mat.setId(IdAsignatura);
-        mat.setCodigo(CodAsignatura);
-        mat.setNombre(NomAsignatura);
-        helper.abrir();
-        regInsertados=helper.insertar(mat);
-        helper.cerrar();
-        Toast.makeText(this, regInsertados, Toast.LENGTH_SHORT).show();
+        DataBaseOpenHelper admin = new DataBaseOpenHelper(this,"BaseEncuesta.db",null,1);
+        SQLiteDatabase BaseDeDatos = admin.getWritableDatabase();
+
+
+        String id = editIdAsignatura.getText().toString();
+        String nombre = editNomAsignatura.getText().toString();
+        String codigo = editCodAsignatura .getText().toString();
+
+
+
+        if(!id.isEmpty() && !nombre.isEmpty() && !codigo.isEmpty()){
+            ContentValues registro = new ContentValues();
+
+            registro.put("idAsignatura", id);
+            registro.put("nomAsignatura", nombre);
+            registro.put("codAsig", codigo);
+
+
+            BaseDeDatos.insert("Asignatura", null, registro);
+
+            Toast.makeText(this,"ingresado", Toast.LENGTH_SHORT).show();
+        } else{
+            Toast.makeText(this, "Debes llenar todos los campos", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void Limpiar(View view) {

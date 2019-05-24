@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MateriaActualizarActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tIdAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idAsignatura" />
+
+    <EditText
+        android:id="@+id/editActIdAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tCodAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idAsignatura" />
+
+    <EditText
+        android:id="@+id/editActCodAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tNomAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nomAsignatura" />
+
+    <EditText
+        android:id="@+id/editActNomAsignatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/actMateriaActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Actualizar"
+        android:text="@string/actualizar" />
+
+    <Button
+        android:id="@+id/actMateriaLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Limpiar"
+        android:text="@string/limpiar" />
+
+</android.widget.LinearLayout>
